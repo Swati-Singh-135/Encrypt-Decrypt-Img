@@ -14,7 +14,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
-public class ImageOperation implements ActionListener
+abstract public class ImageOperation implements ActionListener
 {
     public static void operate(int key)
     {
